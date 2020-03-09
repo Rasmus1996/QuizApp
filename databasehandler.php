@@ -17,9 +17,8 @@ function getScore() {
 
 function postScore($user, $score){
     
-    include_once('./../Class/database.php');
+    include_once('./database.php');
     $database = new Database();
-    
     
 
     try {
